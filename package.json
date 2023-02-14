@@ -1,0 +1,14 @@
+{
+  "name": "tarea1",
+  "version": "1.0.0",
+  "description": "Pequenio flujo de trabajo implementando la estrategia de branching GITFLOW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
