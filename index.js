@@ -13,6 +13,11 @@ app.post('/sumatoria', (req, res) => {
   res.send({"mensaje":"La operacion se ha realizado correctamente"});
 });
 
+// Informacion de la operacion
+app.get('/info', (req, res) => {
+  res.send({"resultado":resultado});
+});
+
 // Agregando listener del servidor
 const port = process.env.port || 3000;
 app.listen(port, () => {
